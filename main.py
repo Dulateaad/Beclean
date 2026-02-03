@@ -10,7 +10,7 @@ import threading
 BOT_TOKEN = "8447073218:AAFAt9e-aFbE96Vk8dhdJd2MAAMEWEd3hhI"
 ADMIN_CHAT_IDS = [
     759300791,1542351599,
-    1298555678,1722760600  # если это группа/канал
+    1298555678,1722760600, 8518059493  # если это группа/канал
 ]
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
