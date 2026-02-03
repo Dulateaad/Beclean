@@ -1,0 +1,1 @@
+pip install pyTelegramBotAPI==4.12.0 flask
