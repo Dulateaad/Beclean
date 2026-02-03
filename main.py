@@ -8,7 +8,10 @@ import threading
 # CONFIG
 # =============================
 BOT_TOKEN = "8447073218:AAFAt9e-aFbE96Vk8dhdJd2MAAMEWEd3hhI"
-ADMIN_CHAT_ID = 1298555678  # <-- вставь свой chat_id
+ADMIN_CHAT_IDS = [
+    759300791,
+    1298555678   # если это группа/канал
+]
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 app = Flask(__name__)
